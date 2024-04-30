@@ -1836,6 +1836,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-default-title {
+	padding-top: 200px;
 	letter-spacing: 0.01em;
 	font-size: 150px;
 	text-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
@@ -1861,7 +1862,7 @@ a[href*='tel'], a[href*='mailto'] {
 	font-size: 24px;
 	letter-spacing: -0.03em;
 	color: #ffffff;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Desplazamiento horizontal, desplazamiento vertical, radio de desenfoque y color de sombra */
+	text-shadow: 50px 50px 4px rgba(0, 0, 0, 0.5); /* Desplazamiento horizontal, desplazamiento vertical, radio de desenfoque y color de sombra */
 }
 
 .box-default-decor + .box-default-text {
@@ -5585,6 +5586,7 @@ html [class*='section-'].section-bottom-0 {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		background-color: rgba(0, 0, 0, 0.8);
 	}
 }
 
@@ -5594,7 +5596,7 @@ html [class*='section-'].section-bottom-0 {
 	right: 0;
 	bottom: 0;
 	top: 0;
-	opacity: .4;
+	opacity: .2;
 }
 
 @media (min-width: 1200px) {
