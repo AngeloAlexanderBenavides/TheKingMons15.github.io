@@ -1836,9 +1836,11 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-default-title {
+	position: relative;
+	left: -1;
 	padding-top: 200px;
 	letter-spacing: 0.01em;
-	font-size: 150px;
+	font-size: 4em;
 	text-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -5212,6 +5214,11 @@ h3 + .button {
 
 h3 + .rd-form {
 	margin-top: 50px;
+}
+.move-rel{
+	display: flex;
+	transform: translate(-15px, -50px);
+	
 }
 
 .container + .container {
